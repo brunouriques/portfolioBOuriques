@@ -1,3 +1,64 @@
+
+
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #457b9d;
+  color: white;
+}
+
+
+/* Start of light an dark blue sections */
+
+.lgBlueSection {
+  background-color: #457b9d
+}
+
+.dkBlueSection {
+  background-color: #1d3557;
+}
+
+/* End of light and dark blue sections */
+
+
+/* Start of title section */
+
+.titleImg {
+  max-width: 100%;
+  scale: 100%;
+  margin: 0;
+}
+
+/* End of title section */
+
+
+/* Start of who am I section */
+
+/* End of who am I section */
+
+
+/* End of title section */
+
+
+
+/* Start of projects section */
+
+/* End of project section */
+
+
+
+/* Start of contact section */
+
+/* End of contact section */
+
+
+
+/* Start of footer section */
+
+#footer {
+
+}
+
+/* End of footer section */
