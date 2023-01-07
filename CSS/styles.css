@@ -7,7 +7,18 @@
 body {
   background-color: #457b9d;
   color: white;
+  font-family: Roboto, sans-serif;
 }
+
+i {
+  color: white;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
 
 
 /* Start of light an dark blue sections */
@@ -23,12 +34,35 @@ body {
 /* End of light and dark blue sections */
 
 
+/* Start of navbar section */
+
+.navbar {
+  background-color: #457b9d;
+  font-family: Montserrat, sans-serif;
+  font-weight: bolder;
+  height: 100px;
+  padding: 0 5%;
+}
+
+.navbar-brand {
+  font-size: 200%;
+}
+.navLink {
+  font-size: 125%;
+  padding: 0 19px;
+  text-decoration: none;
+  color: white;
+}
+
+/* End of navbar section */
+
+
 /* Start of title section */
 
 .titleImg {
   max-width: 100%;
   scale: 100%;
-  margin: 0;
+  margin-top: 8%;
 }
 
 /* End of title section */
@@ -36,14 +70,30 @@ body {
 
 /* Start of who am I section */
 
+.aboutText {
+  padding: 5% 5% 5% 9%;
+
+}
+
 /* End of who am I section */
 
 
-/* End of title section */
-
-
-
 /* Start of projects section */
+
+.projectsStructure {
+  padding: 5% 5% 5% 9%;
+}
+
+.card {
+  margin: 2%;
+  text-align: center;
+}
+
+.card-title {
+  background-color: #1d3557;
+  padding: 3%;
+
+}
 
 /* End of project section */
 
