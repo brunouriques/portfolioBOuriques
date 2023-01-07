@@ -6,12 +6,12 @@
 
 body {
   background-color: #457b9d;
-  color: white;
+  color: #F1FAEE;
   font-family: Roboto, sans-serif;
 }
 
 i {
-  color: white;
+  color: #F1FAEE;
 }
 
 h1 {
@@ -46,12 +46,14 @@ h1 {
 
 .navbar-brand {
   font-size: 200%;
+  color: #F1FAEE;
+
 }
 .navLink {
   font-size: 125%;
   padding: 0 19px;
   text-decoration: none;
-  color: white;
+  color: #F1FAEE;
 }
 
 /* End of navbar section */
@@ -59,10 +61,14 @@ h1 {
 
 /* Start of title section */
 
+#title {
+}
+
 .titleImg {
   max-width: 100%;
   scale: 100%;
   margin-top: 8%;
+  object-fit: cover;
 }
 
 /* End of title section */
@@ -77,6 +83,8 @@ h1 {
 
 /* End of who am I section */
 
+#about {
+}
 
 /* Start of projects section */
 
@@ -87,12 +95,18 @@ h1 {
 .card {
   margin: 2%;
   text-align: center;
+  border-radius: 23px;
 }
 
 .card-title {
   background-color: #1d3557;
   padding: 3%;
+}
 
+.card-body {
+  background-color: #F1FAEE;
+  color: #1d3557;
+  margin: 0;
 }
 
 /* End of project section */
@@ -108,7 +122,8 @@ h1 {
 /* Start of footer section */
 
 #footer {
-
+  text-align: center;
+  margin: 0;
 }
 
 /* End of footer section */
