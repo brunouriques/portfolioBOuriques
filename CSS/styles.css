@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+/* ::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: blue;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 30px; */
+
+
+
 body {
   background-color: #457b9d;
   color: #F1FAEE;
@@ -67,33 +80,33 @@ h1 {
 .titleImg {
   max-width: 100%;
   scale: 100%;
-  margin-top: 8%;
-  object-fit: cover;
+  /* margin-top: 0; */
 }
 
 /* End of title section */
 
 
 /* Start of who am I section */
+#about {
+}
 
 .aboutText {
-  padding: 5% 5% 5% 9%;
+  padding: 5% 5% 5% 6%;
 
 }
 
 /* End of who am I section */
 
-#about {
-}
+
 
 /* Start of projects section */
 
 .projectsStructure {
-  padding: 5% 5% 5% 9%;
+  padding: 5% 5% 5% 6%;
 }
 
 .card {
-  margin: 2%;
+  margin: 2% 2% 2% 0;
   text-align: center;
   border-radius: 23px;
 }
