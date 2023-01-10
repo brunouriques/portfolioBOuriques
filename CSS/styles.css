@@ -151,9 +151,9 @@ h1 {
 
 /* End of footer section */
 
-/* @media only screen and (max-width: 750px)  {
-  .card {
-    max-width: 100%;
+@media only screen and (max-width: 750px)  {
+  .navRight {
+    display: none;
   }
 
-} */
+}
