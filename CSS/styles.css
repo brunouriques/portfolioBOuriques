@@ -105,13 +105,8 @@ h1 {
   padding: 5% 5% 5% 6%;
 }
 
-.card-deck {
-
-}
-
 .card {
   margin: 2% 2% 2% 0;
-  max-width: 31%;
   text-align: center;
   border: 0;
   border-radius: 12%;
@@ -125,7 +120,9 @@ h1 {
 }
 
 .card-img-top {
+  background-color: #F1FAEE;
   border-radius: 0;
+  padding: 1% 1.5%;
 }
 
 .card-body {
@@ -133,6 +130,7 @@ h1 {
   color: #1d3557;
   margin: 0;
 }
+
 
 /* End of project section */
 
@@ -153,9 +151,9 @@ h1 {
 
 /* End of footer section */
 
-@media only screen and (max-width: 750px)  {
+/* @media only screen and (max-width: 750px)  {
   .card {
     max-width: 100%;
   }
 
-}
+} */
