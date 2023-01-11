@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
 }
@@ -14,9 +12,6 @@
 ::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 30px; */
-
-
-
 body {
   background-color: #457b9d;
   color: #F1FAEE;
@@ -32,10 +27,7 @@ h1 {
   font-weight: bold;
 }
 
-
-
 /* Start of light an dark blue sections */
-
 .lgBlueSection {
   background-color: #457b9d
 }
@@ -45,10 +37,7 @@ h1 {
 }
 
 /* End of light and dark blue sections */
-
-
 /* Start of navbar section */
-
 .navbar {
   background-color: #457b9d;
   font-family: Montserrat, sans-serif;
@@ -60,8 +49,8 @@ h1 {
 .navbar-brand {
   font-size: 200%;
   color: #F1FAEE;
-
 }
+
 .navLink {
   font-size: 125%;
   padding: 0 19px;
@@ -70,37 +59,49 @@ h1 {
 }
 
 /* End of navbar section */
-
-
 /* Start of title section */
-
-#title {
+#title .container {
+  margin: auto;
 }
 
 .titleImg {
   max-width: 100%;
   scale: 100%;
-  /* margin-top: 0; */
+  margin: 0;
+}
+
+.titleGlass {
+  /* From https://css.glass */
+  background: rgba(29, 53, 87, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(29, 53, 87, 0.19);
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  height: 60%;
+  width: 100%;
+}
+
+.titleText {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  text-align: center;
+  font-size: 300%;
 }
 
 /* End of title section */
-
-
 /* Start of who am I section */
-#about {
-}
+#about {}
 
 .aboutText {
   padding: 5% 5% 5% 6%;
-
 }
 
 /* End of who am I section */
-
-
-
 /* Start of projects section */
-
 .projectsStructure {
   padding: 5% 5% 5% 6%;
 }
@@ -131,29 +132,18 @@ h1 {
   margin: 0;
 }
 
-
 /* End of project section */
-
-
-
 /* Start of contact section */
-
 /* End of contact section */
-
-
-
 /* Start of footer section */
-
 #footer {
   text-align: center;
   margin: 0;
 }
 
 /* End of footer section */
-
-@media only screen and (max-width: 750px)  {
+@media only screen and (max-width: 750px) {
   .navRight {
     display: none;
   }
-
 }
