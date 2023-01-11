@@ -11,7 +11,9 @@
 }
 ::-webkit-scrollbar-thumb {
   background: black;
-  border-radius: 30px; */
+  border-radius: 30px;
+} */
+
 body {
   background-color: #457b9d;
   color: #F1FAEE;
@@ -38,11 +40,16 @@ h1 {
 
 /* End of light and dark blue sections */
 /* Start of navbar section */
+
+#navigation {
+
+}
+
 .navbar {
-  background-color: #457b9d;
+  /* background-color: #457b9d; */
   font-family: Montserrat, sans-serif;
   font-weight: bolder;
-  height: 100px;
+  height: 12%;
   padding: 0 5%;
 }
 
@@ -61,7 +68,7 @@ h1 {
 /* End of navbar section */
 /* Start of title section */
 #title .container {
-  margin: auto;
+  
 }
 
 .titleImg {
