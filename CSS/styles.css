@@ -31,6 +31,8 @@ h1 {
 }
 
 /* Start of light an dark blue sections */
+
+
 .lgBlueSection {
   background-color: #457b9d;
 }
@@ -39,25 +41,26 @@ h1 {
   background-color: #1d3557;
 }
 
+
 /* End of light and dark blue sections */
+
 /* Start of navbar section */
+
 
 .navbar {
   background-color: blue;
 }
-
-
 
 #navigation {
 
 }
 
 .navbar {
-  background: rgba(29, 53, 87, 0.15);
+  /* From https://css.glass */
+  background: rgba(29, 53, 87, 0.26);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.9px);
-  -webkit-backdrop-filter: blur(4.9px);
-  border: 1px solid rgba(29, 53, 87, 0.19);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);;
   font-family: Montserrat, sans-serif;
   font-weight: bolder;
   padding: 0 5%;
@@ -75,10 +78,15 @@ h1 {
   color: #F1FAEE;
 }
 
+
 /* End of navbar section */
+
 /* Start of title section */
+
+
 #title {
   padding: 5% 5% 5% 6%;
+  height: 28rem;
 
 }
 
@@ -98,21 +106,28 @@ h1 {
 }
 
 .titleImg {
-  max-width: 40%;
+  max-width: 50%;
   border-radius: 100px;
 }
 
 
 /* End of title section */
+
 /* Start of who am I section */
+
+
 #about {}
 
 .aboutText {
   padding: 5% 5% 5% 6%;
 }
 
+
 /* End of who am I section */
+
 /* Start of projects section */
+
+
 .projectsStructure {
   padding: 5% 5% 5% 6%;
 }
@@ -148,18 +163,49 @@ h1 {
   margin: 0;
 }
 
+
 /* End of project section */
+
+/* Start of skills section */
+
+
+.skills {
+  padding: 5% 5% 5% 6%;
+  height: 400px;
+}
+
+
+/* End of skills section */
+
 /* Start of contact section */
+
+
+.contact {
+  padding: 5% 5% 5% 6%;
+  height: 400px;}
+
+
 /* End of contact section */
+
 /* Start of footer section */
+
+
 #footer {
   text-align: center;
   margin: 0;
+  padding-top: 4%;
+  height: 10rem;
 }
 
+
 /* End of footer section */
-@media only screen and (max-width: 750px) {
+
+
+@media only screen and (max-width: 800px) {
   .navRight {
+    display: none;
+  }
+  .titleImg {
     display: none;
   }
 }
