@@ -15,6 +15,7 @@
 } */
 
 body {
+  padding-top: 110px;
   background-color: #457b9d;
   color: #F1FAEE;
   font-family: Roboto, sans-serif;
@@ -31,7 +32,7 @@ h1 {
 
 /* Start of light an dark blue sections */
 .lgBlueSection {
-  background-color: #457b9d
+  background-color: #457b9d;
 }
 
 .dkBlueSection {
@@ -41,15 +42,20 @@ h1 {
 /* End of light and dark blue sections */
 /* Start of navbar section */
 
+.navbar {
+  background-color: blue;
+}
+
+
+
 #navigation {
 
 }
 
 .navbar {
-  /* background-color: #457b9d; */
+  background-color: #457b9d;
   font-family: Montserrat, sans-serif;
   font-weight: bolder;
-  height: 12%;
   padding: 0 5%;
 }
 
@@ -67,12 +73,12 @@ h1 {
 
 /* End of navbar section */
 /* Start of title section */
-#title .container {
-  
+#title {
 }
 
 .titleImg {
   max-width: 100%;
+  height: auto;
   scale: 100%;
   margin: 0;
 }
@@ -85,7 +91,8 @@ h1 {
   -webkit-backdrop-filter: blur(4.9px);
   border: 1px solid rgba(29, 53, 87, 0.19);
   position: absolute;
-  top: 20%;
+  top: 35%;
+  bottom: 30%;
   right: 0%;
   height: 60%;
   width: 100%;
