@@ -48,7 +48,6 @@ h1 {
 
 
 .navbar {
-  background-color: blue;
 }
 
 #navigation {
@@ -81,6 +80,7 @@ h1 {
 
 /* End of navbar section */
 
+
 /* Start of title section */
 
 
@@ -105,7 +105,6 @@ h1 {
 }
 
 .titleGlass {
-  /* From https://css.glass */
   background: rgba(29, 53, 87, 0.15);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.9px);
@@ -115,7 +114,51 @@ h1 {
   height: 60%;
 }
 
+    /* START OF VERTICAL LINE */
 
+.vline {
+  overflow: visible;
+  border-left: 6px solid #1d3557;
+  height: 13rem;
+  position: fixed;
+  top: 25.1rem;
+  left: 2.5%;
+  mix-blend-mode: difference;
+}
+#emailI {
+  position: fixed;
+  top: 23.3rem;
+  left: 1.678rem;
+  color: #1d3557;
+  mix-blend-mode: difference;
+
+}
+#gitI {
+  position: fixed;
+  top: 21.7rem;
+  left: 1.678rem;
+  color: #1d3557;
+  mix-blend-mode: difference;
+
+}
+#linkI {
+  position: fixed;
+  top: 20.1rem;
+  left: 1.678rem;
+  color: #1d3557;
+  /* mix-blend-mode: difference; */
+}
+
+/* #linkI::after {
+  color: blue;
+  mix-blend-mode: difference;
+} */
+
+/* #457b9d #1d3557 */
+/* .vline:hover~.dkBlueSection {
+  background-color: red;
+} */
+    /* END OF VERTICAL LINE */
 
 
 /* End of title section */
@@ -208,11 +251,17 @@ h1 {
 /* End of footer section */
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .navRight {
     display: none;
   }
   .titleImg {
+    max-width: 30%;
+    position: relative;
+    top: 15%;
+    left: 35%;
+  }
+  .vline {
     display: none;
   }
 }
