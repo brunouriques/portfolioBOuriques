@@ -91,7 +91,17 @@ h1 {
 }
 
 .titleText {
+  text-align: center;
+  position: relative;
+  top: 26%;
+}
 
+.titleImg {
+  max-width: 40%;
+  border-radius: 50%;
+  position: relative;
+  bottom: ;
+  left: 30%;
 }
 
 .titleGlass {
@@ -105,10 +115,7 @@ h1 {
   height: 60%;
 }
 
-.titleImg {
-  max-width: 50%;
-  border-radius: 100px;
-}
+
 
 
 /* End of title section */
