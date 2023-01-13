@@ -146,7 +146,7 @@ h1 {
   top: 20.1rem;
   left: 1.678rem;
   color: #1d3557;
-  /* mix-blend-mode: difference; */
+  mix-blend-mode: difference;
 }
 
 /* #linkI::after {
@@ -262,6 +262,9 @@ h1 {
     left: 35%;
   }
   .vline {
+    display: none;
+  }
+  .vlineContent {
     display: none;
   }
 }
