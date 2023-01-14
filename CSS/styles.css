@@ -114,53 +114,6 @@ h1 {
   height: 60%;
 }
 
-    /* START OF VERTICAL LINE */
-
-.vline {
-  overflow: visible;
-  border-left: 6px solid #1d3557;
-  height: 13rem;
-  position: fixed;
-  top: 25.1rem;
-  left: 2.5%;
-  mix-blend-mode: difference;
-}
-#emailI {
-  position: fixed;
-  top: 23.3rem;
-  left: 1.678rem;
-  color: #1d3557;
-  mix-blend-mode: difference;
-
-}
-#gitI {
-  position: fixed;
-  top: 21.7rem;
-  left: 1.678rem;
-  color: #1d3557;
-  mix-blend-mode: difference;
-
-}
-#linkI {
-  position: fixed;
-  top: 20.1rem;
-  left: 1.678rem;
-  color: #1d3557;
-  mix-blend-mode: difference;
-}
-
-/* #linkI::after {
-  color: blue;
-  mix-blend-mode: difference;
-} */
-
-/* #457b9d #1d3557 */
-/* .vline:hover~.dkBlueSection {
-  background-color: red;
-} */
-    /* END OF VERTICAL LINE */
-
-
 /* End of title section */
 
 /* Start of who am I section */
@@ -268,3 +221,68 @@ h1 {
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* START OF VERTICAL LINE - REMOVED */
+/*
+
+.vline {
+  overflow: visible;
+  border-left: 6px solid #1d3557;
+  height: 13rem;
+  position: fixed;
+  bottom: 0;
+  top: 25.1rem;
+  left: 2.5%;
+  mix-blend-mode: difference;
+}
+#emailI {
+  position: fixed;
+  top: 23.3rem;
+  left: 1.678rem;
+  color: #1d3557;
+  overflow-y:hidden;
+    overflow-x:hidden;
+  mix-blend-mode: difference;
+
+}
+#gitI {
+  position: fixed;
+  top: 350px;
+  left: 1.678rem;
+  color: #1d3557;
+  mix-blend-mode: difference;
+
+}
+#linkI {
+  position: fixed;
+  top: 20.1rem;
+  left: 1.678rem;
+  color: #1d3557;
+  mix-blend-mode: difference;
+}
+.test {
+  position: fixed;
+  bottom: 0;
+}
+
+#linkI::after {
+  color: blue;
+  mix-blend-mode: difference;
+}
+
+#457b9d #1d3557
+.vline:hover~.dkBlueSection {
+  background-color: red;
+} */
+    /* END OF VERTICAL LINE */
