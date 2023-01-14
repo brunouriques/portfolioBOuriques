@@ -178,6 +178,18 @@ h1 {
 }
 
 
+.skills i {
+  font-size: 130px;
+  /* padding: 5% 5% 0 5%; */
+}
+
+.skills .container-fluid {
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+
+
 /* End of skills section */
 
 /* Start of contact section */
@@ -214,22 +226,8 @@ h1 {
     top: 30%;
     left: 35%;
   }
-  .vline {
-    display: none;
-  }
-  .vlineContent {
-    display: none;
-  }
+
 }
-
-
-
-
-
-
-
-
-
 
 
 
