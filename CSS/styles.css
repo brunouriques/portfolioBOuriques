@@ -180,13 +180,12 @@ h1 {
 
 .skills i {
   font-size: 130px;
-  /* padding: 5% 5% 0 5%; */
+  padding: 10% 0 10%;
 }
 
 .skills .container-fluid {
   position: relative;
   top: 10%;
-  left: 5%;
   text-align: center;
 
 }
